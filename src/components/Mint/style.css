@@ -1,0 +1,49 @@
+/* .masthead {
+  height: 100vh;
+} */
+
+.welcome {
+  color: #bb9f5d;
+}
+
+.title {
+  font-size: 5rem;
+  font-weight: bold;
+  color: #bb9f5d;
+}
+
+.masthead img {
+  border-radius: 10px;
+}
+
+.masthead button:hover {
+  background-color: #bb9f5d !important;
+  color: white !important;
+}
+
+.masthead .logo {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.mint-text {
+  font-size: 2rem;
+  color: #bb9f5d;
+}
+
+.left {
+  z-index: auto;
+}
+
+@media only screen and (max-width: 1300px) {
+  .masthead .logo {
+    display: block;
+    margin: 0 auto;
+  }
+  .title {
+    font-size: 3rem;
+  }
+  .masthead p {
+    text-align: justify;
+  }
+}
